@@ -1,5 +1,4 @@
 import React from 'react'
-import { signInWithPopup } from "@firebase/auth";
 import { getAuth, GoogleAuthProvider } from "firebase/auth";
 import { FcGoogle } from "react-icons/fc";
 import { toast } from 'react-toastify';

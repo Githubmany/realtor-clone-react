@@ -6,6 +6,7 @@ import { signInWithEmailAndPassword,
 getAuth } from "@firebase/auth";
 import { toast } from "react-toastify";
 
+
 export default function SignIn() {
   const [showPassword, setShowPassword] = useState(false);
   const [formData, setFormData] = useState({
